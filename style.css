@@ -1,0 +1,71 @@
+body {
+	color: red;
+}
+
+.block {
+	padding: 0;
+	height: 500px;
+	width: 30%;
+}
+
+.zag {
+	text-align: center;
+}
+
+.block-head {
+	border: 2px solid green;
+	width: 40%;
+	margin: 0 auto;
+	background-color: blue;
+	border-radius: 50px;
+}
+
+main {
+	padding-top: 50px;
+	display: flex;	
+	justify-content: space-around;
+}
+
+p {
+	text-align: center;
+}
+
+.cage {
+	background-image: url("img/cage.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+
+.farell {
+	background-image: url("img/farell.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body {
+	background-image: url("img/povar.jpg");
+	background-size: 100px 100px;
+	margin: 0;
+}
+
+footer {
+	display: flex;
+	background-color: #b86212;
+	margin: 0;
+	margin-top: 20px;
+	height: 25px;
+	padding-top: 25px;
+}
+
+.foot {
+	margin: auto 5px auto;
+	width: 150px;
+}
+
+.year {
+	margin: auto;
+	width: 150px;
+
+	text-align: right;
+}
